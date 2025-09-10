@@ -33,8 +33,8 @@
                         <td>{{ $subject->id }}</td>
                         <td>{{ $subject->name }}</td>
                         <td>{{ $subject->code }}</td>
-                        <td>{{ $subject->type }}</td>
                         <td>{{ $subject->course->name ?? 'N/A' }}</td>
+                        <td>{{ $subject->type }}</td>
                         <td>{{ $subject->weekly_hours }}</td>
                         <td>
                             <a href="{{ route('admin.subjects.edit', $subject->id) }}" class="btn btn-sm btn-warning">Edit</a>
