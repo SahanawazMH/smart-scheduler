@@ -39,7 +39,7 @@ The "brain" of the application is a `TimetableService` class that uses a **multi
 
 ## 🛠️ Technology Stack
 
-- **Backend:** PHP 8.1, Laravel 10 Framework  
+- **Backend:** PHP 8.2, Laravel 12 Framework  
 - **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5.1  
 - **Database:** MySQL  
 - **Authentication:** Custom Role-Based Middleware  
