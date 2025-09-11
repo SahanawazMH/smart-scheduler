@@ -96,8 +96,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const groupSelect = document.getElementById('student_group_id');
     
     // Store the old selected values if they exist (from validation failure)
-    const selectedSectionId = {{ old('section_id', $student->section_id) }};
-    const selectedGroupId = {{ old('student_group_id', $student->student_group_id) }};
+    const selectedSectionId = "{{ old('section_id', $student->section_id) }}";
+    const selectedGroupId = "{{ old('student_group_id', $student->student_group_id) }}";
 
     function fetchSections(courseId) {
         if (courseId) {
