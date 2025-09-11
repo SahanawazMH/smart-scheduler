@@ -50,8 +50,8 @@ The "brain" of the application is a `TimetableService` class that uses a **multi
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/smart-timetable-scheduler.git
-cd smart-timetable-scheduler
+git https://github.com/SahanawazMH/smart-scheduler.git
+cd smart-scheduler
 
 ### 2️⃣ Install Dependencies
 composer install
